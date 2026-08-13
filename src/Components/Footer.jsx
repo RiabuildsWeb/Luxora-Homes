@@ -6,7 +6,13 @@ const Footer = () => {
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden' id='Footer'>
       <div className='container mx-auto flex flex-col md:flex-row  justify-between items-start '>
         <div className='w-full md:w-1/3 flex-shrink-0 ' >
-            <h1 className='text-white text-2xl font-bold'>Luxora Homes</h1>
+             <div className="flex h-16 items-center overflow-hidden">
+              <img
+                src={assets.logomer}
+                alt="Luxora-Homes"
+                className="h-38 w-auto object-contain"
+              />
+            </div>
         <p className='text-gray-400 mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quisquam quasi
             voluptate, doloremque corporis deleniti consequatur sed cumque, magnam
 </p>
